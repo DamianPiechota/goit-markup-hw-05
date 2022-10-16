@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .second-font {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .logo-left a {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+    text-decoration: none;
+    
+  }
+  
+  .logo-right a {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .logo-right-footer a {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
+
+  .nav-portfolio {
+    display: flex;
+    flex-grow: 1;
+    max-width: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .menu {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196f3;
+    display: flex;
+    justify-content:space-between;
+    text-decoration: none;
+    gap: 50px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .menu a:hover {
+    text-decoration: none;
+    color: #2196f3;
+  }
+  
+  .menu-contact {
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196f3;
+    display: flex;
+    flex-grow: 1;
+    gap: 50px;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+
+  .menu-contact a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .mailto a:hover {
+    text-decoration: none;
+    color: #2196f3;
+  }
+
+  .menu-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .menu-footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .menu-footer a:hover {
+    text-decoration: none;
+    color: #2196f3;
+  }
+  
+  .bar {
+    background-color: #2f303a;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .button-bar {
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    border: 0px;
+    padding: 10px 42px;
+    cursor: pointer;
+  }
+  
+  .h-lorem {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+  }
+  
+  .description-lorem {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #757575;
+    width: 270px;
+    height: 75px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  
+  .name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .profession {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding-bottom: 30px;
+  }
+  
+  .people {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    
+  }
+  
+  footer {
+    background: #2f303a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  address {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  
+  .button-portfolio {
+    background: #f5f4fa;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    font-family: inherit;
+    border: 1px;
+    border-color: #EEEEEE;
+    padding: 6px 22px;
+    cursor: pointer;
+  }
+  
+  .button-portfolio:hover {
+    background: #2196f3;
+    color:#ffffff;
+  }
+  
+  .realizations {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    margin-bottom: 30px;
+  }
+  
+  .name-project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+    padding: 20px 24px 1px 24px;
+    
+  }
+  
+  .type-project {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding: 1px 24px 20px 24px;
+    
+  }
+
+.realizations-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin-bottom: 100px;
+}
+
+.h-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.hp3-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin-bottom: 100px;
+}
+
+.our-team container {
+  background: #f5f4fa;
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
+header {
+  border-bottom: #ececec 1px solid;
+  height: 100px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu-wrapper {
+  display: flex;
+  align-items:center;
+  gap: 75px
+}
+
+.lorem {
+  padding: 0px;
+}
