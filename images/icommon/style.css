@@ -15,22 +15,34 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-logoa {
+.icon-email {
+  width: 1.3330078125em;
+}
+
+.icon-Logo2 {
   width: 1.7373046875em;
 }
 
-.icon-logob {
+.icon-Logo1 {
   width: 1.7373046875em;
 }
 
-.icon-logoc {
+.icon-Logo6 {
   width: 1.7666015625em;
 }
 
-.icon-logod {
+.icon-Logo5 {
   width: 1.7666015625em;
 }
 
-.icon-logof {
+.icon-Logo4 {
   width: 1.7666015625em;
+}
+
+.icon-Logo3 {
+  width: 1.7666015625em;
+}
+
+.icon-smartphone {
+  width: 0.625em;
 }
