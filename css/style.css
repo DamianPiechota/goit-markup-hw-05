@@ -8,15 +8,9 @@
   margin: 0 auto;
 }
 
-section {
-  margin: 0 auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 body {
-    background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
   }
   
   .second-font {
@@ -83,8 +77,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    /*margin-top: 100px;*/
-    /*margin-bottom: 50px;*/
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
   
   .menu {
@@ -158,7 +152,10 @@ body {
     margin: 0 auto;
     justify-content: center;
     gap: 30px;
-  }
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bar.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
   
   .button-bar {
     background: #2196f3;
@@ -193,8 +190,8 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: #757575;
-    /*width: 270px;
-    height: 75px;*/
+    width: 270px;
+    height: 75px;
   }
   
   li {
@@ -235,6 +232,7 @@ body {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     
   }
   
@@ -304,16 +302,17 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   flex-grow: 1;
-  /*margin-bottom: 100px;*/
+  margin-bottom: 100px;
 }
 
 .h-wrapper {
-  display:flex;
-  align-items:center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
   gap: 40px;
-  /*margin-top: 100px;*/
-  /*margin-bottom: 100px;*/
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .hp3-wrapper {
@@ -323,15 +322,14 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   flex-grow: 1;
-  /*margin-bottom: 100px;*/
+  margin-bottom: 100px;
 }
 
-.our-team {
+.our-team .container {
   background-color: #F5F4FA;
-  /*padding-top: 90px;
-  padding-bottom: 20px;*/
+  padding-top: 90px;
+  padding-bottom: 20px;
 }
-
 
 header {
   border-bottom: #ececec 1px solid;
@@ -352,6 +350,10 @@ header {
   gap: 75px
 }
 
-/*.lorem {
+.lorem {
   padding: 0px;
-}*/
+}
+
+.our-team-title {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
