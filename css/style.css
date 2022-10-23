@@ -24,6 +24,9 @@ body {
   
   .second-font {
     font-family: "Raleway", sans-serif;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    ;
   }
   
   button {
@@ -77,6 +80,17 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
+  }
+
+  h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 12px;
+    color:  #FFFFFF;
   }
 
 .icon {
@@ -181,6 +195,10 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    width: 246px;
+    height: 81px;
+    margin-top: 20px;
+    gap: 9px;
   }
   
   .menu-footer a {
@@ -286,11 +304,6 @@ body {
     
   }
   
-  footer {
-    background: #2f303a;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
   
   address {
     font-size: 14px;
@@ -457,4 +470,56 @@ header {
   margin-right: 30px;
 }
 
+figure svg {
+  background-color: #F5F4FA;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+}
 
+footer {
+  background: #2f303a;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.logo-fotter {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.social-links-footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-left: 35%;
+  align-items: flex-start;
+}
+
+.h3-footer {
+  padding-top: 70px;
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+
+.social-list-footer {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 100px;
+}
+
+.social-list-footer>li {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-font-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
