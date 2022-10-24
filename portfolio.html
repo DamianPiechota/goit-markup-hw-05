@@ -18,28 +18,38 @@
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-    <header class="header-wrapper"> 
+    <header class="header-wrapper">
       <div class="header-wrapper container">
         <div class="menu-wrapper">
-        <div class="second-font">
-            <span class="logo-left"><a href="index.html">Web</a></span>
+          <div class="second-font">
+            <span class="logo-left"> <a href="./index.html">Web</a></span>
             <span class="logo-right"> <a href="./index.html">Studio</a></span>
-        </div>
-        <nav>
+          </div>
+          <nav>
             <ul class="menu">
-                <li><a href="./index.html">Agencja</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="/Kontakt">Kontakt</a></li>
+              <li><a href="#">Agencja</a></li>
+              <li><a href="./portfolio.html">Portfolio</a></li>
+              <li><a href="#">Kontakt</a></li>
             </ul>
-        </nav>
+          </nav>
         </div>
-        <div>  
-            <ul class="menu-contact">
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-            </ul>
+        <div>
+          <ul class="menu-contact">
+            <li>
+              <a class="address" href="mailto:info@example.com">
+                <svg class="icon">
+                  <use class="icon-email" y="2" width="16" height="12" href="./images/icons.svg#icon-email"></use>
+                </svg>info@example.com</a>
+            </li>
+            <li>
+              <a class="address" href="tel:+48 111 111 111">
+                <svg class="icon">
+                  <use class="icon-smartphone" width="10px" height="16px" href="./images/icons.svg#icon-smartphone">
+                  </use>
+                </svg>+48 111 111 111</a>
+            </li>
+          </ul>
         </div>
-      </div>  
     </header>
 <main>
     <div>
@@ -148,19 +158,45 @@
 </main>
 <footer>
   <div class="container">
-    <div class="second-font">
+    <div class="logo-footer">
+      <div>
         <span class="logo-left"> <a href="#">Web</a></span>
-        <span class="logo-right-footer"> 
-            <a href="#">Studio</a></span>
+        <span class="logo-right-footer">
+          <a href="#">Studio</a></span>
+        <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+        <ul class="menu-footer">
+          <li><a href="mailto:info@example.com">info@example.com</a></li>
+          <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
+        </ul>
+      </div>
+      <div class="social-links-footer">
+        <h3 class="h3-footer">Dołącz do nas</h3>
+        <ul class="social-list-footer">
+          <li>
+            <svg class="social-icons-footer" width="20" height="20">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="social-icons-footer" width="20" height="20">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="social-icons-footer" width="20" height="20">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="social-icons-footer" width="20" height="20">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
     </div>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-
-      <ul class="menu-footer">
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
-      </ul>
   </div>
-</footer> 
+</footer>
 
 </body>
 </html>
