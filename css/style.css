@@ -145,6 +145,7 @@ body {
     text-decoration: none;
     color: #2196f3;
   }
+
   
   .menu-contact {
     display: flex;
@@ -421,7 +422,7 @@ header {
 .menu-wrapper {
   display: flex;
   align-items:center;
-  gap: 75px
+  gap: 75px;
 }
 
 /*.lorem {
@@ -586,3 +587,5 @@ figure, figcaption {
 h4, p {
   padding-block: 0.25rem;
   }
+
+
