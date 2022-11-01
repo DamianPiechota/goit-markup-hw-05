@@ -104,13 +104,16 @@ body {
   border-style: none;
   color: #FFFFFF;
   cursor: pointer;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }  
 
 .icon svg:hover,
 .icon svg:focus {
   fill: #2196f3;
-  transition: all 0.2s;
-  --color3: #2196F3;
+  /*transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
+  /*transition-property: fill #2196f3;*/
+
+  /*--color3: #2196F3;*/
 }
 
   .nav-portfolio {
@@ -181,20 +184,24 @@ body {
     gap: 2px;
     justify-content: space-between;
     text-decoration: none;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill, color;
   }
 
   .menu-contact a:hover,
   .menu-contact a:focus {
     fill: #2196f3;
     color: #2196f3;
-    transition: all 0.2s;
+    /*transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill, color;*/
   }
 
   .address:hover svg,
   .address:focus svg {
   fill: #2196f3;
   color: #2196f3;
-  transition: all 0.2s;
+  /*transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;*/
 }
 
   .menu-footer {
@@ -318,6 +325,8 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #ffffff;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
   }
   
   .button-portfolio {
@@ -334,6 +343,8 @@ body {
     border-color: #EEEEEE;
     padding: 6px 22px;
     cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: var(--background-color);
   }
   
   .button-portfolio:hover {
@@ -347,6 +358,7 @@ body {
     background: #ffffff;
     border: 1px solid #eeeeee;
     margin-bottom: 30px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .name-project {
@@ -480,12 +492,16 @@ header {
   outline: 1px solid #afb1b8;
   flex-direction: row;
   flex-wrap: nowrap;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
 }
+
 
 .our-customer svg:hover,
 .our-customer svg:focus {
   outline: 1px solid #2196f3;
-  transition: all 0.2s;
+  /*transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill, color;*/
 }
 
 .our-customer ul {
