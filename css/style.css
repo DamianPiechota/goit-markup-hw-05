@@ -104,8 +104,12 @@ body {
   border-style: none;
   color: #FFFFFF;
   cursor: pointer;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
-}  
+  /*transition: fill 10s cubic-bezier(0.4, 0, 0.2, 1)*/
+} 
+
+.icon svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .icon svg:hover,
 .icon svg:focus {
@@ -459,7 +463,6 @@ header {
 .icon-social {
   gap: 10px;
   padding-bottom: 3rem;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social>li {
@@ -474,6 +477,7 @@ header {
     stroke: #afb1b8;
     fill: #afb1b8;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social li:not(:last-child) {
@@ -489,7 +493,7 @@ header {
   outline: 1px solid #afb1b8;
   flex-direction: row;
   flex-wrap: nowrap;
-  transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /*transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 
